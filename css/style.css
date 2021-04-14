@@ -1,0 +1,556 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. General
+2. About
+3. Contact
+4. Index
+5. Articles
+-------------------------------------------------------------------*/
+
+/*
+-------------------------------------------------------------------------------
+1. General
+-------------------------------------------------------------------------------
+*/
+
+p {
+  /* text-align: justify; */
+  font-size: 18px;
+  font-family: "Proxima Nova Reg" !important;
+}
+
+p.masterOfWisdom {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+}
+
+i.large.material-icons {
+  font-size: 60px;
+}
+
+h1 {
+  font-family: "Proxima Nova Reg";
+  font-size: 30px;
+  font-weight: bold;
+  color: #176c38;
+}
+
+nav {
+  height: 70px;
+}
+
+nav ul a {
+  color: #176c38;
+  height: 70px;
+}
+
+.sidenav-overlay {
+  opacity: 0 !important;
+}
+
+img.responsive-img {
+  max-width: 50%;
+  height: auto;
+  float: left;
+  margin-right: 1rem;
+}
+
+.affected-entities > li {
+  color: #176c38;
+  list-style-type: disc !important;
+}
+
+.affected-entities,
+.GeneralList > li {
+  list-style-type: disc !important;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #031d44;
+  padding: 20px 0px;
+  margin: 0px 20px;
+  display: inline-block;
+  position: relative;
+  opacity: 0.75;
+}
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+.nav-link::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #031d44;
+}
+
+.nav-link-ltr::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.nav-link-ltr:hover::before {
+  width: 100%;
+}
+
+.sidenav-overlay {
+  display: none !important;
+}
+
+@font-face {
+  font-family: Proxima Nova Reg;
+  src: url(../fonts/ProximaNova-Regular.otf);
+}
+
+#mobile-demo li > a {
+  color: #176c38;
+}
+
+/*
+-------------------------------------------------------------------------------
+1. Home
+-------------------------------------------------------------------------------
+*/
+.home-container {
+  /* float: right; */
+  padding-left: 10px;
+}
+
+.home-border-bg {
+  background: url("/media/images/home/testborder.png");
+  position: absolute;
+  top: 0px;
+  left: -218px;
+  z-index: 99;
+  /* opacity: 0.5; */
+}
+.home-border-bg img {
+  height: 900px;
+}
+
+.home-icon {
+  text-align: center;
+}
+
+.home-icon i {
+  color: #176c38;
+  text-align: center;
+}
+
+.icon-section {
+  padding-top: 0rem;
+}
+
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+}
+
+.sidenav-trigger {
+  color: #176c38;
+}
+
+/*
+-------------------------------------------------------------------------------
+2. About
+-------------------------------------------------------------------------------
+*/
+
+i.large.material-icons {
+  font-size: 60px;
+}
+
+#upper-horizontal-line {
+  width: 30%;
+  height: 1px;
+  background: linear-gradient(to right, #adcf34, #197039);
+}
+
+.sub-heading {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #176c38;
+}
+
+.first-paragraph {
+  text-align: justify;
+  font-family: "Proxima Nova Reg";
+  font-size: 18px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.second-paragraph {
+  text-align: justify;
+  font-family: "Proxima Nova Reg";
+  font-size: 18px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.third-paragraph {
+  text-align: justify;
+  font-family: "Proxima Nova Reg";
+  font-size: 18px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+#first-img {
+  max-width: 50%;
+  height: auto;
+  float: right;
+  margin-left: 3rem;
+  /* margin-top: 4rem;
+  margin-bottom: 4rem; */
+  box-shadow: 0px 5px 14px #c4c6c2;
+  border-radius: 5px;
+}
+
+#second-img {
+  max-width: 50%;
+  height: auto;
+  float: left;
+  margin-right: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  box-shadow: 0px 5px 14px #c4c6c2;
+  border-radius: 5px;
+}
+
+#middle-horizontal-line {
+  width: 10rem;
+  margin-bottom: 2rem;
+}
+
+.our-values {
+  border-radius: 50px;
+  background-color: #ffffff !important;
+  box-shadow: 0px 5px 14px #c4c6c2;
+}
+
+.custom-card {
+  box-shadow: 0px 5px 14px #c4c6c2;
+  border-radius: 10px;
+}
+
+.our-values-col {
+  width: 100% !important;
+}
+
+.our-values p {
+  color: black;
+}
+
+.values-sub-heading {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  color: #176c38;
+}
+
+.values-hr {
+  height: 10px;
+  background: linear-gradient(to right, #adcf34, #197039);
+  border: none;
+  margin-bottom: 20px;
+  margin-left: -25px;
+  width: 105%;
+}
+
+.values-title {
+  margin: 0px 0px 12px 0px;
+}
+
+.email-link,
+.phone-link {
+  color: #b1d035;
+}
+
+/* .float-container-right {
+  float: right;
+} */
+
+/*
+-------------------------------------------------------------------------------
+2. Members
+-------------------------------------------------------------------------------
+*/
+.center-heading {
+  text-align: center;
+}
+
+/*
+-------------------------------------------------------------------------------
+3. Contact
+-------------------------------------------------------------------------------
+*/
+
+.google-map-iframe {
+  float: right;
+  box-shadow: 0px 5px 14px #c4c6c2;
+  border-radius: 5px;
+}
+
+.material-icons {
+  vertical-align: -8px;
+}
+
+.sub-container,
+.contact-phone,
+.contact-email {
+  color: #176c38;
+  font-weight: bold;
+}
+
+.contact-container {
+  padding-top: 20px;
+}
+
+.contact-bye-bye {
+  text-align: center;
+  font-size: 25px;
+}
+
+/*
+-------------------------------------------------------------------------------
+4. Index
+-------------------------------------------------------------------------------
+*/
+
+/* .body, html {
+  height: 100%;
+} */
+
+/* The hero image */
+/* .hero-image { */
+
+/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+
+/* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/media/images/home/handshake.jpg); */
+
+/* Set a specific height */
+/* height: 200px; */
+
+/* Position and center the image to scale nicely on all screens */
+/* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; */
+/* } */
+
+/* Place text in the middle of the image */
+/* .hero-text, .home-heading{
+  text-align: center;
+  height: 100%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+} */
+
+/*
+-------------------------------------------------------------------------------
+5. Responsiveness
+-------------------------------------------------------------------------------
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .home-border-bg {
+    left: -450px;
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .home-border-bg {
+    left: -444px;
+  }
+}
+
+/* IDK */
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+  .values-hr {
+    width: 112%;
+  }
+
+  .contact-address {
+    margin-top: 360px;
+  }
+  .contact-address,
+  .contact-phone,
+  .contact-email {
+    text-align: center;
+  }
+
+  .main-contact-container {
+    text-align: center;
+  }
+
+  .home-border-bg {
+    left: -445px;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 650px) {
+  .home-border-bg {
+    left: -410px;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  .home-border-bg {
+    left: -265px;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+}
+
+@media only screen and (min-width: 1920px) {
+  .values-hr {
+    width: 104%;
+  }
+
+  #first-img {
+    margin-left: 15rem;
+  }
+  .float-container-right {
+    /* float: right; */
+    margin-top: 145px;
+  }
+}
+
+/*
+-------------------------------------------------------------------------------
+5. Articles
+-------------------------------------------------------------------------------
+*/
+/* 
+table, th, td {
+  /* border: 1px solid black; */
+/* border-collapse: collapse; */
+/* border-radius: 25px; */
+
+th,
+td {
+  padding: 5px;
+  color: #176c38;
+  font-family: "Proxima Nova Reg";
+}
+
+th {
+  text-align: left;
+}
+
+table {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 23px;
+  border-spacing: 5px;
+  -moz-border-radius: 6px;
+}
+
+tr,
+th {
+  font-family: "Proxima Nova Reg";
+  font-size: 14px;
+  font-weight: bold;
+  color: #176c38;
+}
+
+tr,
+th,
+a {
+  font-family: "Proxima Nova Reg";
+  color: #176c38;
+}
+
+/* 
+.collapsible {
+  border-top: 1px solid #eeeeee;
+  border-right: 28px solid #eeeeee ;
+  border-left: 50px solid #eeeeee ;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.collapsible-body p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.collapsible-header {
+  color: #176c38;
+  border-bottom: 4x solid grey;
+  font-weight: bold;
+  border-right-color: #176c38;
+  border-left-color: #176c38;
+}
+
+.sub-heading-article {
+  font-size: 20px;
+  font-weight: bold;
+  color: #176c38;
+  padding: 20px;
+} */
+
+/*
+-------------------------------------------------------------------------------
+6. Team Experience
+-------------------------------------------------------------------------------
+*/
+
+img.responsive-img {
+  max-width: 20%;
+  height: auto;
+  float: left;
+  margin-right: -30%;
+}
+
+#Team {
+  color: black;
+}
+
+#TeamName {
+  font-size: 20px;
+}
+
+#IndentDiv {
+  padding-left: 15px;
+}
+
+#IndentList {
+  padding-left: 15px;
+}
