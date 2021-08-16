@@ -512,7 +512,11 @@
         <div class="row">
           <div class="col-md-6 half ftco-animate">
             <h2 class="mb-4">Send a Message &amp; Get in touch!</h2>
-            <form action="#" class="appointment">
+            <form
+              action="https://formsubmit.co/ca85ff2cfab4cf9b02bef8071ffbb7ee"
+              method="POST"
+              class="appointment"
+            >
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
@@ -520,7 +524,19 @@
                       type="text"
                       class="form-control"
                       placeholder="Your Name"
+                      name="name"
+                      required
                     />
+                    <input
+                      type="hidden"
+                      name="_next"
+                      value="http://127.0.0.1:5500/index.html"
+                    />
+                    <!-- <input
+                      type="hidden"
+                      name="_captcha"
+                      value="false"
+                    /> -->
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -529,6 +545,8 @@
                       type="text"
                       class="form-control"
                       placeholder="Email"
+                      name="email"
+                      required
                     />
                   </div>
                 </div>
@@ -550,12 +568,13 @@
                 <div class="col-md-12">
                   <div class="form-group">
                     <textarea
-                      name=""
                       id=""
                       cols="30"
                       rows="7"
                       class="form-control"
                       placeholder="Message"
+                      name="message"
+                      required
                     ></textarea>
                   </div>
                 </div>
